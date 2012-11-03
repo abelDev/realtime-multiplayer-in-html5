@@ -1,19 +1,14 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<!-- saved from url=(0044)http://html5demos.com/web-socket -->
-<!DOCTYPE html><HTML lang="en"><HEAD>
+﻿<!DOCTYPE html>
+<HTML lang="en"><HEAD>
 <META charset="utf-8">
-<META name="viewport" content="width=620"><TITLE>HTML5 Demo: Web Socket</TITLE>
+<META name="viewport" content="width=620"><TITLE>Internal HTML 5 Chat Service</TITLE>
 <LINK rel="stylesheet" href="HTML5%20Demo%20Web%20Socket_files/html5demos.css">
 <SCRIPT src="HTML5%20Demo%20Web%20Socket_files/h5utils.js"></SCRIPT>
 
 <META name="GENERATOR" content="MSHTML 9.00.8112.16450"></HEAD>
 <BODY><SECTION id="wrapper">
-<DIV id="carbonads-container">
-<DIV class="carbonad">
-<DIV id="azcarbon"></DIV>
-<SCRIPT type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/14060/azcarbon_2_1_0_VERT"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</SCRIPT>
-</DIV></DIV><HEADER>
-<H1>Web Socket</H1></HEADER>
+<HEADER>
+<H1>Internal HTML 5 Chat Service</H1></HEADER>
 <STYLE>
 #chat { width: 97%; }
 .them { font-weight: bold; }
@@ -40,8 +35,6 @@ placeholder="type and press enter to chat"></FORM>
 <P>Users connected: <SPAN id="connected">0</SPAN></P>
 <P>To test, open two windows with Web Socket support, type a message above and 
 press return.</P>
-<P>The server side code is available here: <A href="http://github.com/remy/html5demos/tree/master/server/">node-web-socket 
-&amp; server</A> (note that it runs on <A title="node.js" href="http://nodejs.org/">nodejs</A>)</P>
 <UL id="log"></UL></ARTICLE>
 <SCRIPT>
 // let's invite Firefox to the party.
@@ -52,7 +45,7 @@ if (window.MozWebSocket) {
 function openConnection() {
   // uses global 'conn' object
   if (conn.readyState === undefined || conn.readyState > 1) {
-    conn = new WebSocket('ws://node.remysharp.com:8001');    
+    conn = new WebSocket('ws://rod156.homedns.org:8001');    
     conn.onopen = function () {
       state.className = 'success';
       state.innerHTML = 'Socket open';
@@ -116,21 +109,7 @@ if (window.WebSocket === undefined) {
 }
 
 </SCRIPT>
-<A id="html5badge" href="http://www.w3.org/html/logo/"><IMG title="HTML5 Powered with Connectivity / Realtime, Device Access, Graphics, 3D &amp; Effects, Multimedia, Performance &amp; Integration, Semantics, and Offline &amp; Storage" 
-alt="HTML5 Powered with Connectivity / Realtime, Device Access, Graphics, 3D &amp; Effects, Multimedia, Performance &amp; Integration, Semantics, and Offline &amp; Storage" 
-src="HTML5%20Demo%20Web%20Socket_files/html5-badge-h-connectivity-device-graphics-multimedia-performance-semantics-storage.png" 
-width="325" height="64"></A><FOOTER><A href="http://html5demos.com/">HTML5 
-demos</A>/<A id="built" href="http://twitter.com/rem">@rem built this</A>/<A 
-href="http://html5demos.com/web-socket#view-source">view 
-source</A></FOOTER></SECTION><A href="http://github.com/remy/html5demos"><IMG 
-style="border: 0px currentColor; left: 0px; top: 0px; position: absolute;" alt="Fork me on GitHub" 
-src="HTML5%20Demo%20Web%20Socket_files/forkme_left_darkblue_121621.png"></A>
 <SCRIPT src="HTML5%20Demo%20Web%20Socket_files/prettify.packed.js"></SCRIPT>
-
-<SCRIPT>
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</SCRIPT>
 
 <SCRIPT>
 try {
