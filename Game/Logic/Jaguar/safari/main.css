@@ -49,3 +49,26 @@ body {
 .selected #text {
     color: white;
 }
+
+#rectangleShape {
+    position: absolute;
+    height: 428px;
+    -webkit-border-image: url(Parts/Images/rectangleShape.png) 0 1 fill stretch;
+    -moz-border-image: url(Parts/Images/rectangleShape.png) 0 1 fill stretch;
+    border-width: 0px 1px;
+    left: 184px;
+    top: 42px;
+    width: 1px;
+}
+
+#rectangleShape1 {
+    position: absolute;
+    width: 814px;
+    height: 0px;
+    -webkit-border-image: url(Parts/Images/rectangleShape1.png) 0 1 fill stretch;
+    -moz-border-image: url(Parts/Images/rectangleShape1.png) 0 1 fill stretch;
+    border-width: 0px 1px;
+    left: 184px;
+    top: 41px;
+    min-height: 4px;
+}
