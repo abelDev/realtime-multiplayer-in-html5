@@ -182,6 +182,13 @@
 							}
 						}
 					}
+					for(i = 0; i < buttonX.length; i++){
+						if(mouseX > buttonX[3] && mouseX < buttonX[3] + buttonWidth[i]){
+						if(mouseY > buttonY[3] && mouseY < buttonY[3] + buttonHeight[i]){
+								window.open("http://example.com","_self")
+							}
+						}
+					}
 		}
 	}
 </script> 
