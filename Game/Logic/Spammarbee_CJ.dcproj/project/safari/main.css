@@ -49,3 +49,33 @@ body {
 .selected #text {
     color: white;
 }
+
+#rectangleShape {
+    position: absolute;
+    height: 447px;
+    -webkit-border-image: url(Parts/Images/rectangleShape.png) 0 1 fill stretch;
+    -moz-border-image: url(Parts/Images/rectangleShape.png) 0 1 fill stretch;
+    border-width: 0px 1px;
+    width: 1px;
+    margin-top: 0px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    left: 184px;
+    top: 42px;
+    right: auto;
+    bottom: auto;
+    margin-bottom: auto;
+}
+
+#rectangleShape1 {
+    position: absolute;
+    width: 834px;
+    height: 0px;
+    -webkit-border-image: url(Parts/Images/rectangleShape1.png) 0 1 fill stretch;
+    -moz-border-image: url(Parts/Images/rectangleShape1.png) 0 1 fill stretch;
+    border-width: 0px 1px;
+    left: 184px;
+    top: 41px;
+    min-height: 3px;
+    margin-right: auto;
+}

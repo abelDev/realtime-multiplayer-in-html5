@@ -21,7 +21,7 @@
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Date</key>
-		<date>2012-11-14T22:05:44Z</date>
+		<date>2012-11-14T22:20:22Z</date>
 		<key>Destination</key>
 		<string>CDA698C3-70EE-41D9-8F90-7F696D8B2A2C</string>
 		<key>Path</key>
@@ -44,11 +44,7 @@
 			</array>
 		</array>
 		<key>Objects view last selections</key>
-		<array>
-			<array>
-				<integer>0</integer>
-			</array>
-		</array>
+		<array/>
 		<key>Opened Steps</key>
 		<array>
 			<integer>0</integer>
