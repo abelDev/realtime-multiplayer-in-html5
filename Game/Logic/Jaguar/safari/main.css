@@ -52,23 +52,25 @@ body {
 
 #rectangleShape {
     position: absolute;
-    height: 428px;
+    height: 447px;
     -webkit-border-image: url(Parts/Images/rectangleShape.png) 0 1 fill stretch;
     -moz-border-image: url(Parts/Images/rectangleShape.png) 0 1 fill stretch;
     border-width: 0px 1px;
     left: 184px;
     top: 42px;
     width: 1px;
+    margin-bottom: auto;
 }
 
 #rectangleShape1 {
     position: absolute;
-    width: 814px;
+    width: 834px;
     height: 0px;
     -webkit-border-image: url(Parts/Images/rectangleShape1.png) 0 1 fill stretch;
     -moz-border-image: url(Parts/Images/rectangleShape1.png) 0 1 fill stretch;
     border-width: 0px 1px;
     left: 184px;
     top: 41px;
-    min-height: 4px;
+    min-height: 3px;
+    margin-right: auto;
 }
