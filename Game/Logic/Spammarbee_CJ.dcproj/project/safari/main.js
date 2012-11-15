@@ -11,4 +11,25 @@
 function load()
 {
     dashcode.setupParts();
+    detailTest();
+}
+
+function detailTest(event)
+{
+document.getElementById("stackLayout").object.setCurrentView("Team1", false);
+}
+
+function NextTeamSwitch(event)
+{
+document.getElementById("stackLayout").object.setCurrentView("Team2", false);
+}
+
+function PickCstTeam1(event)
+{
+document.getElementById("TeamPicker").object.setCurrentView("CustomTeam1", false);
+}
+
+function LoadMain(event)
+{
+document.getElementById("stackLayout").object.setCurrentView("Main", false);
 }

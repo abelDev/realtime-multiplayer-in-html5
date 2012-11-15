@@ -16,5 +16,25 @@ function load()
 
 function detailTest(event)
 {
-document.getElementById("stackLayout").object.setCurrentView("view2", false);
+document.getElementById("stackLayout").object.setCurrentView("Team1", false);
+}
+
+function NextTeamSwitch(event)
+{
+document.getElementById("stackLayout").object.setCurrentView("Team2", false);
+}
+
+function BeginGame(event)
+{
+document.getElementById("stackLayout").object.setCurrentView("Ready", false);
+}
+
+function PickCstTeam1(event)
+{
+document.getElementById("TeamPicker").object.setCurrentView("CustomTeam1", false);
+}
+
+function LoadMain(event)
+{
+document.getElementById("stackLayout").object.setCurrentView("Main", false);
 }
