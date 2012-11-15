@@ -87,20 +87,25 @@ body {
     height: auto;
 }
 
-#text1 {
-    font-size: 13px;
+#TeamStringUI {
+    font-size: 15px;
     font-family: 'Lucida Grande', Arial, sans-serif;
     text-overflow: ellipsis;
     overflow: hidden;
     width: auto;
     height: auto;
     position: absolute;
-    left: 25px;
+    left: 15px;
     top: 283px;
     margin-top: 0px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0px 0px 3px;
+    right: 922px;
+    bottom: 188px;
 }
 
-.selected #text1 {
+.selected #TeamStringUI {
     color: white;
 }
 
@@ -228,7 +233,7 @@ body {
     height: auto;
 }
 
-#button3 {
+#salpick1 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 12px;
@@ -305,7 +310,7 @@ body {
     position: relative;
 }
 
-#button4 {
+#custom1 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 15px;
@@ -374,7 +379,7 @@ body {
     color: white;
 }
 
-#button5 {
+#homepick1 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 12px;
@@ -524,7 +529,7 @@ body {
     color: white;
 }
 
-#button7 {
+#greenpick1 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 12px;
@@ -695,7 +700,7 @@ body {
     min-height: 199px;
 }
 
-#button11 {
+#custom2 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 15px;
@@ -861,7 +866,7 @@ body {
     margin-top: 0px;
 }
 
-#button13 {
+#salpick2 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 12px;

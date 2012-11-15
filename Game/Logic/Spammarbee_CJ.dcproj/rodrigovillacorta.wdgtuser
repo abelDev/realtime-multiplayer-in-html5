@@ -2,8 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Breakpoints</key>
+	<dict>
+		<key>safari/main.js:84</key>
+		<string>-HomelessSetup</string>
+	</dict>
 	<key>CYSavedWindowFrame</key>
-	<string>58 129 1083 626 0 0 1280 778 </string>
+	<string>151 127 1083 626 0 0 1280 778 </string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -14,8 +19,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {759, 402}}</string>
-			<string>{{0, 412}, {759, 217}}</string>
+			<string>{{0, 0}, {941, 409}}</string>
+			<string>{{0, 419}, {941, 210}}</string>
 		</array>
 	</dict>
 	<key>ContentViewType</key>
@@ -23,7 +28,7 @@
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Date</key>
-		<date>2012-11-15T05:29:41Z</date>
+		<date>2012-11-15T21:36:40Z</date>
 		<key>Destination</key>
 		<string>CDA698C3-70EE-41D9-8F90-7F696D8B2A2C</string>
 		<key>Path</key>
@@ -77,6 +82,48 @@
 			<array>
 				<integer>0</integer>
 				<integer>8</integer>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+				<integer>2</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>1</integer>
 			</array>
 			<array>
 				<integer>0</integer>
@@ -86,7 +133,70 @@
 			<array>
 				<integer>0</integer>
 				<integer>8</integer>
+				<integer>3</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>7</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>7</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>7</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>7</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>7</integer>
 				<integer>1</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>7</integer>
+				<integer>2</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>7</integer>
+				<integer>3</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<integer>0</integer>
 			</array>
 		</array>
 		<key>Objects view last selections</key>
@@ -94,7 +204,8 @@
 			<array>
 				<integer>0</integer>
 				<integer>8</integer>
-				<integer>2</integer>
+				<integer>1</integer>
+				<integer>6</integer>
 			</array>
 		</array>
 		<key>Opened Steps</key>
@@ -104,10 +215,12 @@
 		</array>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>Team2</string>
-			<string>view1</string>
-			<string>view4</string>
 			<string>view3</string>
+			<string>Question1</string>
+			<string>view5</string>
+			<string>view1</string>
+			<string>Team1</string>
+			<string>view4</string>
 		</array>
 	</dict>
 	<key>MainSplitViewGeometry</key>
@@ -117,15 +230,15 @@
 		<key>sizes</key>
 		<array>
 			<string>{{0, 0}, {244, 650}}</string>
-			<string>{{245, 0}, {760, 650}}</string>
+			<string>{{245, 0}, {942, 650}}</string>
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>24 107 1004 671 0 0 1280 778 </string>
+	<string>24 107 1186 671 0 0 1280 778 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
-		<integer>9</integer>
+		<integer>5</integer>
 		<key>SplitViewConfig</key>
 		<integer>3</integer>
 		<key>_indexOfCollapsedView</key>

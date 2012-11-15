@@ -12,6 +12,7 @@ function load()
 {
     dashcode.setupParts();
     detailTest();
+    setupLogic();
 }
 
 function detailTest(event)
@@ -37,4 +38,48 @@ document.getElementById("TeamPicker").object.setCurrentView("CustomTeam1", false
 function LoadMain(event)
 {
 document.getElementById("stackLayout").object.setCurrentView("Main", false);
+}
+
+function Reset()
+{
+window.location.reload()
+}
+
+//
+// Gamelogic.js
+// The way that the game actually works
+//
+
+var TeamName1;
+var TeamPoints1;
+
+function setupLogic()
+{
+    TeamName1 = "Not Yet Picked";
+    TeamPoints1=0;
+    // Values you provide
+    document.getElementById("TeamStringUI").innerText = TeamName1;
+}
+
+function SalamanderSetup()
+{
+    TeamName1="Salamander";
+    TeamPoints1=0;
+    document.getElementById("TeamStringUI").innerText = TeamName1;
+    document.getElementById("salpick1").object.setText("Picked");
+    document.getElementById("salpick2").object.setEnabled(false);
+    document.getElementById("greenpick1").object.setEnabled(false);
+    document.getElementById("homepick1").object.setEnabled(false);
+    document.getElementById("custom1").object.setEnabled(false);
+}
+
+function HomelessSetup()
+{
+    TeamName1="Homeless Helpers";
+    TeamPoints1=0;
+    document.getElementById("TeamStringUI").innerText = TeamName1;
+    document.getElementById("salpick1").object.setEnabled(false);
+    document.getElementById("salpick2").object.setEnabled(false);
+    document.getElementById("greenpick1").object.setEnabled(false);
+    document.getElementById("custom1").object.setEnabled(false);
 }
