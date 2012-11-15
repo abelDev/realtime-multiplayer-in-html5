@@ -35,7 +35,7 @@ body {
 
 #rectangleShape {
     position: absolute;
-    height: 447px;
+    height: 537px;
     -webkit-border-image: url(Parts/Images/rectangleShape.png) 0 1 fill stretch;
     -moz-border-image: url(Parts/Images/rectangleShape.png) 0 1 fill stretch;
     border-width: 0px 1px;
@@ -450,7 +450,7 @@ body {
     -webkit-user-select: none;
     -moz-user-select: none;
     position: absolute;
-    left: 655px;
+    left: 659px;
     top: 357px;
     right: auto;
     bottom: auto;
