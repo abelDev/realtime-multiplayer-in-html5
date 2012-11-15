@@ -56,9 +56,14 @@ body {
     -webkit-border-image: url(Parts/Images/rectangleShape.png) 0 1 fill stretch;
     -moz-border-image: url(Parts/Images/rectangleShape.png) 0 1 fill stretch;
     border-width: 0px 1px;
+    width: 1px;
+    margin-top: 0px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
     left: 184px;
     top: 42px;
-    width: 1px;
+    right: auto;
+    bottom: auto;
     margin-bottom: auto;
 }
 
@@ -73,4 +78,114 @@ body {
     top: 41px;
     min-height: 3px;
     margin-right: auto;
+}
+
+#image {
+    width: 184px;
+    height: 180px;
+    position: absolute;
+    left: 0px;
+    top: 191px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#inner_image1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+#text1 {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 25px;
+    top: 283px;
+    margin-top: 0px;
+}
+
+.selected #text1 {
+    color: white;
+}
+
+#button {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.597656) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90px;
+    height: 27px;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    position: absolute;
+    left: 239px;
+    top: 7px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#button1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.597656) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 102px;
+    height: 27px;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    position: absolute;
+    left: 343px;
+    top: 7px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#button2 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.597656) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 82px;
+    height: 26px;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    position: absolute;
+    left: 455px;
+    top: 7px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
 }
