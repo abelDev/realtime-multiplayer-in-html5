@@ -11,4 +11,10 @@
 function load()
 {
     dashcode.setupParts();
+    detailTest();
+}
+
+function detailTest(event)
+{
+document.getElementById("stackLayout").object.setCurrentView("view2", false);
 }
