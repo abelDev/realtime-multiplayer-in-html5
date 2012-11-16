@@ -4,7 +4,7 @@
 <dict>
 	<key>Breakpoints</key>
 	<dict>
-		<key>safari/main.js:84</key>
+		<key>safari/main.js:97</key>
 		<string>-HomelessSetup</string>
 	</dict>
 	<key>CYSavedWindowFrame</key>
@@ -28,7 +28,7 @@
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Date</key>
-		<date>2012-11-15T21:39:50Z</date>
+		<date>2012-11-16T01:17:07Z</date>
 		<key>Destination</key>
 		<string>CDA698C3-70EE-41D9-8F90-7F696D8B2A2C</string>
 		<key>Path</key>
@@ -100,43 +100,6 @@
 			</array>
 			<array>
 				<integer>0</integer>
-				<integer>8</integer>
-			</array>
-			<array>
-				<integer>0</integer>
-				<integer>8</integer>
-				<integer>0</integer>
-			</array>
-			<array>
-				<integer>0</integer>
-				<integer>8</integer>
-				<integer>0</integer>
-				<integer>0</integer>
-			</array>
-			<array>
-				<integer>0</integer>
-				<integer>8</integer>
-				<integer>0</integer>
-				<integer>0</integer>
-				<integer>0</integer>
-			</array>
-			<array>
-				<integer>0</integer>
-				<integer>8</integer>
-				<integer>1</integer>
-			</array>
-			<array>
-				<integer>0</integer>
-				<integer>8</integer>
-				<integer>2</integer>
-			</array>
-			<array>
-				<integer>0</integer>
-				<integer>8</integer>
-				<integer>3</integer>
-			</array>
-			<array>
-				<integer>0</integer>
 				<integer>7</integer>
 			</array>
 			<array>
@@ -175,6 +138,20 @@
 			<array>
 				<integer>0</integer>
 				<integer>8</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>1</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
 				<integer>1</integer>
 				<integer>2</integer>
 			</array>
@@ -183,7 +160,12 @@
 				<integer>8</integer>
 				<integer>1</integer>
 				<integer>2</integer>
+				<integer>1</integer>
+			</array>
+			<array>
 				<integer>0</integer>
+				<integer>8</integer>
+				<integer>2</integer>
 			</array>
 			<array>
 				<integer>0</integer>
@@ -196,11 +178,52 @@
 				<integer>8</integer>
 				<integer>2</integer>
 				<integer>1</integer>
+				<integer>1</integer>
+			</array>
+			<array>
 				<integer>0</integer>
+				<integer>8</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<integer>1</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>4</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>3</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>4</integer>
 			</array>
 		</array>
 		<key>Objects view last selections</key>
-		<array/>
+		<array>
+			<array>
+				<integer>0</integer>
+			</array>
+		</array>
 		<key>Opened Steps</key>
 		<array>
 			<integer>0</integer>
@@ -208,12 +231,12 @@
 		</array>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>view4</string>
-			<string>Question1</string>
+			<string>view2</string>
 			<string>view5</string>
-			<string>view1</string>
-			<string>Team1</string>
-			<string>view3</string>
+			<string>Question1</string>
+			<string>view4</string>
+			<string>Scoreboard</string>
+			<string>CustomTeam1</string>
 		</array>
 	</dict>
 	<key>MainSplitViewGeometry</key>
@@ -227,7 +250,7 @@
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>24 107 1186 671 0 0 1280 778 </string>
+	<string>-5 107 1186 671 0 0 1280 778 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
