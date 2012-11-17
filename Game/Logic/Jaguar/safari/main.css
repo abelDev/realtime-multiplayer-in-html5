@@ -1054,7 +1054,7 @@ body {
     overflow: hidden;
     z-index: 0;
     width: 821px;
-    height: 316px;
+    height: 399px;
     position: absolute;
     left: 16px;
     top: 12px;
@@ -1068,12 +1068,12 @@ body {
     display: none;
     position: relative;
     height: auto;
-    min-height: 316px;
+    min-height: 399px;
 }
 
 #Question2 {
     width: 100%;
-    min-height: 316px;
+    min-height: 399px;
     display: none;
     position: relative;
 }
@@ -1088,8 +1088,8 @@ body {
     position: absolute;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
-    left: 0px;
-    top: 0px;
+    left: 34px;
+    top: 58px;
     margin-top: 0px;
 }
 
@@ -1323,5 +1323,192 @@ body {
 }
 
 .selected #Team2Num {
+    color: white;
+}
+
+#Text1 {
+    font-size: 31px;
+    font-family: Helvetica-Light;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 3px;
+    top: 4px;
+    margin-top: 0px;
+    text-shadow: rgba(0, 0, 0, 0.496094) 3px 2px 6px;
+    right: 658px;
+    bottom: 275px;
+}
+
+.selected #Text1 {
+    color: white;
+}
+
+#box {
+    position: absolute;
+    width: 546px;
+    height: 55px;
+    background-color: rgba(224, 224, 224, 0.296875);
+    border: 1px solid rgb(222, 222, 222);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    left: 22px;
+    top: 49px;
+}
+
+#text9 {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 132px;
+    top: 173px;
+    margin-top: 0px;
+}
+
+.selected #text9 {
+    color: white;
+}
+
+#text10 {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 159px;
+    top: 173px;
+    margin-top: 0px;
+}
+
+.selected #text10 {
+    color: white;
+}
+
+#text11 {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 207px;
+    top: 173px;
+    margin-top: 0px;
+}
+
+.selected #text11 {
+    color: white;
+}
+
+#text13 {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 233px;
+    top: 173px;
+    margin-top: 0px;
+}
+
+.selected #text13 {
+    color: white;
+}
+
+#text14 {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 264px;
+    top: 173px;
+    margin-top: 0px;
+}
+
+.selected #text14 {
+    color: white;
+}
+
+#text15 {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 308px;
+    top: 173px;
+    margin-top: 0px;
+}
+
+.selected #text15 {
+    color: white;
+}
+
+#text16 {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 335px;
+    top: 173px;
+    margin-top: 0px;
+}
+
+.selected #text16 {
+    color: white;
+}
+
+#text17 {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 389px;
+    top: 173px;
+    margin-top: 0px;
+}
+
+.selected #text17 {
+    color: white;
+}
+
+#text18 {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 423px;
+    top: 173px;
+    margin-top: 0px;
+}
+
+.selected #text18 {
     color: white;
 }

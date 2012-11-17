@@ -1054,7 +1054,7 @@ body {
     overflow: hidden;
     z-index: 0;
     width: 821px;
-    height: 316px;
+    height: 399px;
     position: absolute;
     left: 16px;
     top: 12px;
@@ -1068,12 +1068,12 @@ body {
     display: none;
     position: relative;
     height: auto;
-    min-height: 316px;
+    min-height: 399px;
 }
 
 #Question2 {
     width: 100%;
-    min-height: 316px;
+    min-height: 399px;
     display: none;
     position: relative;
 }
@@ -1088,8 +1088,8 @@ body {
     position: absolute;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
-    left: 0px;
-    top: 0px;
+    left: 34px;
+    top: 58px;
     margin-top: 0px;
 }
 
@@ -1324,4 +1324,409 @@ body {
 
 .selected #Team2Num {
     color: white;
+}
+
+#Text1 {
+    font-size: 31px;
+    font-family: Helvetica-Light;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 3px;
+    top: 4px;
+    margin-top: 0px;
+    text-shadow: rgba(0, 0, 0, 0.496094) 3px 2px 6px;
+    right: 658px;
+    bottom: 275px;
+}
+
+.selected #Text1 {
+    color: white;
+}
+
+#box {
+    position: absolute;
+    width: 546px;
+    height: 55px;
+    background-color: rgba(224, 224, 224, 0.292969);
+    border: 1px solid rgb(222, 222, 222);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    left: 22px;
+    top: 49px;
+}
+
+#text9 {
+    font-size: 28px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 60px;
+    top: 158px;
+    margin-top: 0px;
+    right: 77px;
+    bottom: 208px;
+}
+
+.selected #text9 {
+    color: white;
+}
+
+#checkbox {
+    width: 60px;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    left: 83px;
+    top: 142px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#div {
+    position: absolute;
+    top: 2px;
+    left: 18px;
+    text-align: left;
+    vertical-align: middle;
+    width: 59px;
+    min-height: 15px;
+}
+
+#checkbox1 {
+    width: 39px;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    left: 234px;
+    top: 142px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#div1 {
+    position: absolute;
+    top: 2px;
+    left: 18px;
+    text-align: left;
+    vertical-align: middle;
+    width: 59px;
+    min-height: 15px;
+}
+
+#checkbox2 {
+    width: 44px;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    left: 163px;
+    top: 142px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#div2 {
+    position: absolute;
+    top: 2px;
+    left: 18px;
+    text-align: left;
+    vertical-align: middle;
+    width: 59px;
+    min-height: 15px;
+}
+
+#checkbox3 {
+    width: 59px;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    left: 288px;
+    top: 142px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#div3 {
+    position: absolute;
+    top: 2px;
+    left: 18px;
+    text-align: left;
+    vertical-align: middle;
+    width: 59px;
+    min-height: 15px;
+}
+
+#checkbox4 {
+    width: 80px;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    left: 367px;
+    top: 142px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#div4 {
+    position: absolute;
+    top: 2px;
+    left: 18px;
+    text-align: left;
+    vertical-align: middle;
+    width: 59px;
+    min-height: 15px;
+}
+
+#checkbox5 {
+    width: 80px;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    left: 437px;
+    top: 142px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#div5 {
+    position: absolute;
+    top: 2px;
+    left: 18px;
+    text-align: left;
+    vertical-align: middle;
+    width: 59px;
+    min-height: 15px;
+}
+
+#checkbox6 {
+    width: 80px;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    left: 515px;
+    top: 142px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#div6 {
+    position: absolute;
+    top: 2px;
+    left: 18px;
+    text-align: left;
+    vertical-align: middle;
+    width: 59px;
+    min-height: 15px;
+}
+
+#checkbox7 {
+    width: 80px;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    left: 610px;
+    top: 142px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#div7 {
+    position: absolute;
+    top: 2px;
+    left: 18px;
+    text-align: left;
+    vertical-align: middle;
+    width: 59px;
+    min-height: 15px;
+}
+
+#checkbox8 {
+    width: 80px;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    left: 689px;
+    top: 142px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#div8 {
+    position: absolute;
+    top: 2px;
+    left: 18px;
+    text-align: left;
+    vertical-align: middle;
+    width: 59px;
+    min-height: 15px;
+}
+
+#button3 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.589844) 0px -1px 0px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 123px;
+    height: 30px;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    position: absolute;
+    left: 628px;
+    top: 327px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#text10 {
+    font-size: 27px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    left: 30px;
+    top: 60px;
+    margin-top: 0px;
+    right: 272px;
+    bottom: 304px;
+}
+
+.selected #text10 {
+    color: white;
+}
+
+#Text2 {
+    font-size: 31px;
+    font-family: Helvetica-Light;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 3px;
+    top: 4px;
+    margin-top: 0px;
+    text-shadow: rgba(0, 0, 0, 0.496094) 3px 2px 6px;
+    right: 658px;
+    bottom: 275px;
+}
+
+.selected #Text2 {
+    color: white;
+}
+
+#box1 {
+    position: absolute;
+    width: 546px;
+    height: 55px;
+    background-color: rgba(224, 224, 224, 0.292969);
+    border: 1px solid rgb(222, 222, 222);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    left: 15px;
+    top: 48px;
+}
+
+#text11 {
+    font-size: 17px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 35px;
+    top: 137px;
+    margin-top: 0px;
+    right: 36px;
+    bottom: 214px;
+}
+
+.selected #text11 {
+    color: white;
+}
+
+#Question3 {
+    width: 100%;
+    min-height: 399px;
+    display: none;
+    position: relative;
+}
+
+#Question4 {
+    width: 100%;
+    min-height: 399px;
+    display: none;
+    position: relative;
+}
+
+#Text3 {
+    font-size: 31px;
+    font-family: Helvetica-Light;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 3px;
+    top: 4px;
+    margin-top: 0px;
+    text-shadow: rgba(0, 0, 0, 0.496094) 3px 2px 6px;
+    right: 658px;
+    bottom: 275px;
+}
+
+.selected #Text3 {
+    color: white;
+}
+
+#box2 {
+    position: absolute;
+    width: 546px;
+    height: 55px;
+    background-color: rgba(224, 224, 224, 0.292969);
+    border: 1px solid rgb(222, 222, 222);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    left: 15px;
+    top: 48px;
 }

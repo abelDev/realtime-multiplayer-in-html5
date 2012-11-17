@@ -70,8 +70,12 @@ function setupLogic()
 {
     TeamName1 = "Not Yet Picked";
     TeamPoints1=0;
+    TeamName2 = "Not Yet Picked";
+    TeamPoints2=0;
     // Values you provide
     document.getElementById("TeamStringUI").innerText = TeamName1;
+    document.getElementById("button6").object.setEnabled(false);
+    document.getElementById("button15").object.setEnabled(false);
 }
 
 function SalamanderSetup()
@@ -84,6 +88,7 @@ function SalamanderSetup()
     document.getElementById("greenpick1").object.setEnabled(false);
     document.getElementById("homepick1").object.setEnabled(false);
     document.getElementById("custom1").object.setEnabled(false);
+    document.getElementById("button6").object.setEnabled(true);
 }
 
 function HomelessSetup()
@@ -91,10 +96,24 @@ function HomelessSetup()
     TeamName1="Homeless Helpers";
     TeamPoints1=0;
     document.getElementById("TeamStringUI").innerText = TeamName1;
+    document.getElementById("homepick1").object.setText("Picked");
     document.getElementById("salpick1").object.setEnabled(false);
     document.getElementById("homepick2").object.setEnabled(false);
     document.getElementById("greenpick1").object.setEnabled(false);
     document.getElementById("custom1").object.setEnabled(false);
+    document.getElementById("button6").object.setEnabled(true);
+}
+
+function GreenSetup()
+{
+    TeamName1="Green Team";
+    TeamPoints1=0;
+    document.getElementById("TeamStringUI").innerText = TeamName1;
+    document.getElementById("salpick1").object.setEnabled(false);
+    document.getElementById("greenpick2").object.setEnabled(false);
+    document.getElementById("homepick1").object.setEnabled(false);
+    document.getElementById("custom1").object.setEnabled(false);
+    document.getElementById("button6").object.setEnabled(true);
 }
 
 function CustomSetup()
@@ -109,6 +128,7 @@ function CustomSetup()
     document.getElementById("greenpick1").object.setEnabled(false);
     document.getElementById("custom1").object.setEnabled(false);
     document.getElementById("homepick1").object.setEnabled(false);
+    document.getElementById("button6").object.setEnabled(true);
 }
 
 function CustomSetup2()
@@ -122,8 +142,30 @@ function CustomSetup2()
     document.getElementById("greenpick2").object.setEnabled(false);
     document.getElementById("custom2").object.setEnabled(false);
     document.getElementById("homepick2").object.setEnabled(false);
+    document.getElementById("button15").object.setEnabled(true);
 }
 
+function GreenSetup2()
+{
+    TeamName2="Green Team";
+    TeamPoints2=0;
+    document.getElementById("TeamStringUI").innerText = TeamName1;
+    document.getElementById("salpick2").object.setEnabled(false);
+    document.getElementById("homepick2").object.setEnabled(false);
+    document.getElementById("custom2").object.setEnabled(false);
+    document.getElementById("button15").object.setEnabled(true);
+}
+
+function HomelessSetup2()
+{
+    TeamName2="Homeless Helpers";
+    TeamPoints2=0;
+    document.getElementById("TeamStringUI").innerText = TeamName1;
+    document.getElementById("salpick2").object.setEnabled(false);
+    document.getElementById("greenpick2").object.setEnabled(false);
+    document.getElementById("custom2").object.setEnabled(false);
+    document.getElementById("button15").object.setEnabled(true);
+}
 //
 // Scoreboard.js
 // Keeps Score
