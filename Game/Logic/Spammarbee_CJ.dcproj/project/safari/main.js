@@ -184,15 +184,29 @@ function WriteScores()
 // Question logic control
 //
 
+function correctAnswer(i)
+{
+    if(i == 1)
+    {
+        return new Array("checkbox2","checkbox6");
+    }
+}
 function Question1()
 {
-    var Q1PTS;
-    var QTtrack;
-    // Values you provide
-var checkboxValue = document.getElementById("checkbox1");	// replace with ID of checkbox
+    var Q1PTS;
+    var QTtrack;
+    // Values you provide
+    var checkbox = document.getElementById(correctAnswer(1)[0]);    // replace with ID of checkbox
+    var checkbox1 = document.getElementById(correctAnswer(1)[1]);
 
-// Checkbox code
-checkboxValue = checkboxValue.checked;
-
-    document.getElementById("Text1").innerText = checkboxValue;
+    // Checkbox code
+    var checkboxValue = checkbox.firstElementChild.checked;
+    var checkboxValue1 = checkbox1.firstElementChild.checked;
+    if(checkboxValue && checkboxValue1)
+    {
+        document.getElementById("Text1").innerText = "true";
+    }else
+    {
+        document.getElementById("Text1").innerText = "false";
+    }
 }
