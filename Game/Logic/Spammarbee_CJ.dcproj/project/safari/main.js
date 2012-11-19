@@ -183,30 +183,75 @@ function WriteScores()
 // QA.js
 // Question logic control
 //
-
 function correctAnswer(i)
 {
-    if(i == 1)
-    {
-        return new Array("checkbox2","checkbox6");
-    }
+    if(i == 1)
+    {
+        return new Array("checkbox2","checkbox6");
+    }
+    if(i == 2)
+    {
+        return new Array("stuff1","stuff2");
+    }
+}
+function checkAnswer(i, s)
+{
+    for(j=0;j<correctAnswer(i).length;j++)
+    {
+        if(s == correctAnswer(i)[j])
+        {
+            return true;
+        }
+    }
+}
+function checkArray(i,array)
+{
+    if(array.length < correctAnswer(i).length)
+    {
+        return false;
+    }
+    for(j=0;j<array.length;j++)
+    {
+        if(!array[j])
+        {
+            return false;
+        }
+    }
+    return true;
 }
 function Question1()
 {
-    var Q1PTS;
-    var QTtrack;
-    // Values you provide
-    var checkbox = document.getElementById(correctAnswer(1)[0]);    // replace with ID of checkbox
-    var checkbox1 = document.getElementById(correctAnswer(1)[1]);
-
-    // Checkbox code
-    var checkboxValue = checkbox.firstElementChild.checked;
-    var checkboxValue1 = checkbox1.firstElementChild.checked;
-    if(checkboxValue && checkboxValue1)
-    {
-        document.getElementById("Text1").innerText = "true";
-    }else
-    {
-        document.getElementById("Text1").innerText = "false";
-    }
+    doQuestion(1,0,9);
+}
+function Question2()
+{
+    doQuestion(2,9,17);
+}
+function doQuestion(qID,boxStart,boxEnd)
+{
+    var Q1PTS;
+    var QTtrack;
+    // Values you provide
+    var correct = [];
+    var wrong = false;
+    for(i=boxStart;i<boxEnd;i++)
+    {
+        var id = "checkbox";
+        if(i != 0)
+        {
+            id = id+i;
+        }
+        var checkbox = document.getElementById(id);	// replace with ID of checkbox
+        var checkboxValue = checkbox.firstElementChild.checked;
+        if(checkboxValue && !checkAnswer(qID,id))
+        {
+            correct.push(false);
+            wrong = true;
+        }
+        if(checkboxValue && checkAnswer(qID,id) && !wrong)
+        {
+            correct.push(true);
+        }
+    }
+     document.getElementById("Text1").innerText = checkArray(qID,correct);
 }

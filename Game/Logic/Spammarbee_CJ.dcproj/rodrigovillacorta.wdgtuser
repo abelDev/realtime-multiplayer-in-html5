@@ -6,7 +6,7 @@
 	<dict>
 		<key>safari/main.js:103</key>
 		<string>-HomelessSetup</string>
-		<key>safari/main.js:211</key>
+		<key>safari/main.js:197</key>
 		<string>-Question1</string>
 	</dict>
 	<key>CYSavedWindowFrame</key>
@@ -244,12 +244,12 @@
 		</array>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>Question1</string>
+			<string>CustomTeam1</string>
 			<string>Team2</string>
 			<string>view5</string>
 			<string>view1</string>
 			<string>view4</string>
-			<string>CustomTeam1</string>
+			<string>Question1</string>
 		</array>
 	</dict>
 	<key>MainSplitViewGeometry</key>
