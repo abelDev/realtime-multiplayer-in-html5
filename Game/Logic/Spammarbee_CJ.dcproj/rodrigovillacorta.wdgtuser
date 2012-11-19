@@ -30,7 +30,7 @@
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Date</key>
-		<date>2012-11-19T23:08:03Z</date>
+		<date>2012-11-19T23:37:46Z</date>
 		<key>Destination</key>
 		<string>CDA698C3-70EE-41D9-8F90-7F696D8B2A2C</string>
 		<key>Path</key>
@@ -305,10 +305,10 @@
 		</array>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>Main</string>
 			<string>Question4</string>
 			<string>view1</string>
 			<string>view4</string>
+			<string>Team1</string>
 			<string>CustomTeam1</string>
 		</array>
 	</dict>
