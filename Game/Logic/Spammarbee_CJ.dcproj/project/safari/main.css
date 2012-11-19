@@ -2201,416 +2201,56 @@ body {
     color: white;
 }
 
+#button5 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.589844) 0px -1px 0px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 123px;
+    height: 30px;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    position: absolute;
+    left: 628px;
+    top: 331px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
 #checkbox26 {
-    width: 18px;
+    width: 21px;
     font-family: HelveticaNeue;
     font-size: 10pt;
     height: 18px;
     position: absolute;
-    left: 22px;
-    top: 133px;
+    left: 621px;
+    top: 304px;
     right: auto;
     bottom: auto;
     margin-top: 0px;
 }
 
-#div26 {
+#text15 {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
     position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox27 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 55px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
+    left: 642px;
+    top: 297px;
     margin-top: 0px;
+    right: 7px;
 }
 
-#div27 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox28 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 83px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div28 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox29 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 101px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div29 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox30 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 127px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div30 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox31 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 161px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div31 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox32 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 203px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div32 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox33 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 239px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div33 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox34 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 280px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div34 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox35 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 314px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div35 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox36 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 367px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div36 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox37 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 435px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div37 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox38 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 513px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div38 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox39 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 589px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div39 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox40 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 641px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div40 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox41 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 668px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div41 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox42 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 709px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div42 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
-}
-
-#checkbox43 {
-    width: 18px;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    height: 18px;
-    position: absolute;
-    left: 757px;
-    top: 133px;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-}
-
-#div43 {
-    position: absolute;
-    top: 2px;
-    left: 18px;
-    text-align: left;
-    vertical-align: middle;
-    width: 59px;
-    min-height: 15px;
+.selected #text15 {
+    color: white;
 }
