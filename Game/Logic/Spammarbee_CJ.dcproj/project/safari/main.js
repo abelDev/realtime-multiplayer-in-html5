@@ -207,7 +207,7 @@ function correctAnswer(i)
     }
      if(i == 6)
     {
-        return new Array("checkbox29","checkbox30");
+        return new Array("checkbox30");
     }
     
 }
