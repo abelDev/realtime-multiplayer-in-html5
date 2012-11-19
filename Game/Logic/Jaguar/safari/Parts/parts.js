@@ -69,6 +69,8 @@ var dashcodePartSpecs = {
     "text10": { "text": "Identify all ADJECTIVES in the sentence.", "view": "DC.Text" },
     "text11": { "text": "We ate our delicious lunch very quickly so we could go outside to play our favorite game.", "view": "DC.Text" },
     "text12": { "text": "Green", "view": "DC.Text" },
+    "text13": { "text": "My mom is a good cook. Last night, she made chicken enchiladas. Chicken enchiladas are my favorite meal.", "view": "DC.Text" },
+    "text14": { "text": "Rewrite the sentence using at least one APPOSITIVE PHRASE.", "view": "DC.Text" },
     "text2": { "text": "The Salamander Team is a very descriptive name, but choose carefully!", "view": "DC.Text" },
     "Text2": { "text": "Question 2", "view": "DC.Text" },
     "text3": { "text": "The homeless helpers, a original team!", "view": "DC.Text" },
@@ -80,6 +82,7 @@ var dashcodePartSpecs = {
     "text8": { "text": "Team Name:", "view": "DC.Text" },
     "text9": { "text": "The orange cat was eating his catfood very slowly.", "view": "DC.Text" }
 };
+
 
 
 
