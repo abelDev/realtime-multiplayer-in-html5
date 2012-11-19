@@ -191,7 +191,7 @@ function correctAnswer(i)
     }
     if(i == 2)
     {
-        return new Array("stuff1","stuff2");
+        return new Array("checkbox11","checkbox12","checkbox23","checkbox24");
     }
 }
 function checkAnswer(i, s)
@@ -222,15 +222,16 @@ function checkArray(i,array)
 function Question1()
 {
     doQuestion(1,0,9);
+    button3.onclick = nextquestion();
 }
 function Question2()
 {
-    doQuestion(2,9,17);
+    doQuestion(2,9,26);
+    button4.onclick = nextquestion();
 }
+var Q1PTS=0;
 function doQuestion(qID,boxStart,boxEnd)
 {
-    var Q1PTS;
-    var QTtrack;
     // Values you provide
     var correct = [];
     var wrong = false;
@@ -254,4 +255,22 @@ function doQuestion(qID,boxStart,boxEnd)
         }
     }
      document.getElementById("Text1").innerText = checkArray(qID,correct);
+    if(checkArray(qID,correct))
+    {
+        AddtoPTS()
+    }
+}
+
+function AddtoPTS()
+{
+    Q1PTS=Q1PTS+1;
+    alert(Q1PTS);
+}
+
+var QTScount=1;
+function nextquestion()
+{
+QTScount=QTScount+1;
+var currentquestion="Question"+QTScount;
+document.getElementById("RenderQuestion").object.setCurrentView(currentquestion, false);
 }

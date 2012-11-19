@@ -12,6 +12,7 @@ var dashcodePartSpecs = {
     "button15": { "initialHeight": 62, "initialWidth": 162, "leftImageWidth": 31, "onclick": "BeginGame", "rightImageWidth": 31, "text": "Next", "view": "DC.PushButton" },
     "button2": { "initialHeight": 26, "initialWidth": 82, "leftImageWidth": 5, "onclick": "Reset", "rightImageWidth": 5, "text": "RESET", "view": "DC.PushButton" },
     "button3": { "initialHeight": 30, "initialWidth": 123, "leftImageWidth": 15, "onclick": "Question1", "rightImageWidth": 15, "text": "CheckAnswer", "view": "DC.PushButton" },
+    "button4": { "initialHeight": 30, "initialWidth": 123, "leftImageWidth": 15, "onclick": "Question2", "rightImageWidth": 15, "text": "CheckAnswer", "view": "DC.PushButton" },
     "button6": { "initialHeight": 62, "initialWidth": 162, "leftImageWidth": 31, "onclick": "NextTeamSwitch", "rightImageWidth": 31, "text": "Next", "view": "DC.PushButton" },
     "button8": { "initialHeight": 30, "initialWidth": 114, "leftImageWidth": 5, "rightImageWidth": 5, "text": "FORCE_WIN", "view": "DC.PushButton" },
     "button9": { "initialHeight": 30, "initialWidth": 123, "leftImageWidth": 5, "rightImageWidth": 5, "text": "FORCE_LOSE", "view": "DC.PushButton" },
@@ -64,5 +65,6 @@ var dashcodePartSpecs = {
     "text8": { "text": "Team Name:", "view": "DC.Text" },
     "text9": { "text": "The orange cat was eating his catfood very slowly.", "view": "DC.Text" }
 };
+
 
 

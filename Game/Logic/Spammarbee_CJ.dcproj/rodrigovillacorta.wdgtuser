@@ -6,11 +6,11 @@
 	<dict>
 		<key>safari/main.js:103</key>
 		<string>-HomelessSetup</string>
-		<key>safari/main.js:197</key>
-		<string>-Question1</string>
+		<key>safari/main.js:211</key>
+		<string>-checkArray</string>
 	</dict>
 	<key>CYSavedWindowFrame</key>
-	<string>155 126 1083 626 0 0 1280 778 </string>
+	<string>296 152 1083 626 0 0 1280 778 </string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -227,14 +227,39 @@
 				<integer>0</integer>
 				<integer>0</integer>
 			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>4</integer>
+			</array>
 		</array>
 		<key>Objects view last selections</key>
 		<array>
 			<array>
 				<integer>0</integer>
 				<integer>8</integer>
-				<integer>2</integer>
 				<integer>0</integer>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>20</integer>
 			</array>
 		</array>
 		<key>Opened Steps</key>
@@ -244,12 +269,11 @@
 		</array>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>CustomTeam1</string>
-			<string>Team2</string>
-			<string>view5</string>
+			<string>Main</string>
 			<string>view1</string>
 			<string>view4</string>
-			<string>Question1</string>
+			<string>Question2</string>
+			<string>CustomTeam1</string>
 		</array>
 	</dict>
 	<key>MainSplitViewGeometry</key>
