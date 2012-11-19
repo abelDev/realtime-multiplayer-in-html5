@@ -2392,9 +2392,10 @@ body {
 
 #Question6 {
     width: 100%;
-    min-height: 399px;
     display: none;
     position: relative;
+    height: auto;
+    min-height: 399px;
 }
 
 #box4 {
@@ -2594,4 +2595,151 @@ body {
     border-width: 0px 5px;
     left: 119px;
     top: 150px;
+}
+
+#button12 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.589844) 0px -1px 0px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 123px;
+    height: 30px;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    position: absolute;
+    left: 628px;
+    top: 331px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#box5 {
+    position: absolute;
+    width: 546px;
+    height: 55px;
+    background-color: rgba(224, 224, 224, 0.292969);
+    border: 1px solid rgb(222, 222, 222);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    left: 15px;
+    top: 48px;
+}
+
+#text24 {
+    font-size: 26px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    margin-top: 0px;
+    right: -47px;
+    bottom: 9px;
+}
+
+.selected #text24 {
+    color: white;
+}
+
+#Text6 {
+    font-size: 31px;
+    font-family: Helvetica-Light;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 3px;
+    top: 4px;
+    margin-top: 0px;
+    text-shadow: rgba(0, 0, 0, 0.496094) 3px 2px 6px;
+    right: 658px;
+    bottom: 275px;
+}
+
+.selected #Text6 {
+    color: white;
+}
+
+#text25 {
+    font-size: 25px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 69px;
+    top: 150px;
+    margin-top: 0px;
+    right: 148px;
+    bottom: 211px;
+}
+
+.selected #text25 {
+    color: white;
+}
+
+#checkbox29 {
+    width: 80px;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    left: 194px;
+    top: 300px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#div26 {
+    position: absolute;
+    top: -5px;
+    left: 18px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 24px;
+    width: auto;
+    height: auto;
+    right: -57px;
+    bottom: -6px;
+}
+
+#checkbox30 {
+    width: 78px;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#div27 {
+    position: absolute;
+    top: -5px;
+    left: 18px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 24px;
+    width: auto;
+    height: auto;
+    right: -57px;
+    bottom: -6px;
 }

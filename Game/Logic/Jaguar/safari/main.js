@@ -201,6 +201,14 @@ function correctAnswer(i)
     {
         return new Array("checkbox27");
     }
+    if(i == 5)
+    {
+        return new Array("checkbox28");
+    }
+     if(i == 6)
+    {
+        return new Array("checkbox29","checkbox30");
+    }
     
 }
 function checkAnswer(i, s)
@@ -241,12 +249,22 @@ function Question2()
 function Question3()
 {
     doQuestion(3,26,27);
-    button4.onclick = nextquestion();
+    button5.onclick = nextquestion();
 }
 function Question4()
 {
     doQuestion(3,27,28);
-    button4.onclick = nextquestion();
+    button7.onclick = nextquestion();
+}
+function Question5()
+{
+    doQuestion(3,28,29);
+    button11.onclick = nextquestion();
+}
+function Question6()
+{
+    doQuestion(3,29,31);
+    button13.onclick = nextquestion();
 }
 var Q1PTS=0;
 function doQuestion(qID,boxStart,boxEnd)
