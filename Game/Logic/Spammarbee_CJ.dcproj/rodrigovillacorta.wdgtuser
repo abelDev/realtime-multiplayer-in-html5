@@ -295,9 +295,49 @@
 				<integer>0</integer>
 				<integer>1</integer>
 			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>4</integer>
+				<integer>1</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>4</integer>
+				<integer>8</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>4</integer>
+				<integer>9</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>4</integer>
+				<integer>2</integer>
+			</array>
 		</array>
 		<key>Objects view last selections</key>
-		<array/>
+		<array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>4</integer>
+			</array>
+		</array>
 		<key>Opened Steps</key>
 		<array>
 			<integer>0</integer>
@@ -305,10 +345,10 @@
 		</array>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>Question4</string>
+			<string>Main</string>
 			<string>view1</string>
 			<string>view4</string>
-			<string>Team1</string>
+			<string>Question5</string>
 			<string>CustomTeam1</string>
 		</array>
 	</dict>
