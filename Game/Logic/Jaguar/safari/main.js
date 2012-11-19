@@ -193,6 +193,10 @@ function correctAnswer(i)
     {
         return new Array("checkbox11","checkbox12","checkbox23","checkbox24");
     }
+    if(i == 3)
+    {
+        return new Array("checkbox26");
+    }
 }
 function checkAnswer(i, s)
 {
@@ -227,6 +231,11 @@ function Question1()
 function Question2()
 {
     doQuestion(2,9,26);
+    button4.onclick = nextquestion();
+}
+function Question3()
+{
+    doQuestion(3,26,27);
     button4.onclick = nextquestion();
 }
 var Q1PTS=0;
