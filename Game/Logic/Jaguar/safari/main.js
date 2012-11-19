@@ -178,3 +178,99 @@ function WriteScores()
     document.getElementById("Team1Num").innerText = TeamPoints1;
     document.getElementById("Team2Num").innerText = TeamPoints2;
 }
+
+//
+// QA.js
+// Question logic control
+//
+function correctAnswer(i)
+{
+    if(i == 1)
+    {
+        return new Array("checkbox2","checkbox6");
+    }
+    if(i == 2)
+    {
+        return new Array("checkbox11","checkbox12","checkbox23","checkbox24");
+    }
+}
+function checkAnswer(i, s)
+{
+    for(j=0;j<correctAnswer(i).length;j++)
+    {
+        if(s == correctAnswer(i)[j])
+        {
+            return true;
+        }
+    }
+}
+function checkArray(i,array)
+{
+    if(array.length < correctAnswer(i).length)
+    {
+        return false;
+    }
+    for(j=0;j<array.length;j++)
+    {
+        if(!array[j])
+        {
+            return false;
+        }
+    }
+    return true;
+}
+function Question1()
+{
+    doQuestion(1,0,9);
+    button3.onclick = nextquestion();
+}
+function Question2()
+{
+    doQuestion(2,9,26);
+    button4.onclick = nextquestion();
+}
+var Q1PTS=0;
+function doQuestion(qID,boxStart,boxEnd)
+{
+    // Values you provide
+    var correct = [];
+    var wrong = false;
+    for(i=boxStart;i<boxEnd;i++)
+    {
+        var id = "checkbox";
+        if(i != 0)
+        {
+            id = id+i;
+        }
+        var checkbox = document.getElementById(id);	// replace with ID of checkbox
+        var checkboxValue = checkbox.firstElementChild.checked;
+        if(checkboxValue && !checkAnswer(qID,id))
+        {
+            correct.push(false);
+            wrong = true;
+        }
+        if(checkboxValue && checkAnswer(qID,id) && !wrong)
+        {
+            correct.push(true);
+        }
+    }
+     document.getElementById("Text1").innerText = checkArray(qID,correct);
+    if(checkArray(qID,correct))
+    {
+        AddtoPTS()
+    }
+}
+
+function AddtoPTS()
+{
+    Q1PTS=Q1PTS+1;
+    alert(Q1PTS);
+}
+
+var QTScount=1;
+function nextquestion()
+{
+QTScount=QTScount+1;
+var currentquestion="Question"+QTScount;
+document.getElementById("RenderQuestion").object.setCurrentView(currentquestion, false);
+}
