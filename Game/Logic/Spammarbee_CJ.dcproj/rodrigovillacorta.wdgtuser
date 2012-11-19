@@ -6,7 +6,7 @@
 	<dict>
 		<key>safari/main.js:103</key>
 		<string>-HomelessSetup</string>
-		<key>safari/main.js:219</key>
+		<key>safari/main.js:224</key>
 		<string>-checkArray</string>
 	</dict>
 	<key>CYSavedWindowFrame</key>
@@ -21,8 +21,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {889, 400}}</string>
-			<string>{{0, 410}, {889, 210}}</string>
+			<string>{{0, 0}, {889, 340}}</string>
+			<string>{{0, 350}, {889, 210}}</string>
 		</array>
 	</dict>
 	<key>ContentViewType</key>
@@ -278,6 +278,14 @@
 				<integer>8</integer>
 				<integer>0</integer>
 				<integer>0</integer>
+				<integer>3</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>8</integer>
+				<integer>0</integer>
+				<integer>0</integer>
 				<integer>0</integer>
 			</array>
 			<array>
@@ -289,16 +297,7 @@
 			</array>
 		</array>
 		<key>Objects view last selections</key>
-		<array>
-			<array>
-				<integer>0</integer>
-				<integer>8</integer>
-				<integer>0</integer>
-				<integer>0</integer>
-				<integer>4</integer>
-				<integer>4</integer>
-			</array>
-		</array>
+		<array/>
 		<key>Opened Steps</key>
 		<array>
 			<integer>0</integer>
@@ -307,9 +306,9 @@
 		<key>Visible StackLayout Views</key>
 		<array>
 			<string>Main</string>
+			<string>Question4</string>
 			<string>view1</string>
 			<string>view4</string>
-			<string>Question5</string>
 			<string>CustomTeam1</string>
 		</array>
 	</dict>
@@ -319,8 +318,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {244, 641}}</string>
-			<string>{{245, 0}, {890, 641}}</string>
+			<string>{{0, 0}, {244, 581}}</string>
+			<string>{{245, 0}, {890, 581}}</string>
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
@@ -335,8 +334,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {246, 322}}</string>
-			<string>{{0, 332}, {246, 288}}</string>
+			<string>{{0, 0}, {246, 290}}</string>
+			<string>{{0, 300}, {246, 260}}</string>
 		</array>
 	</dict>
 </dict>

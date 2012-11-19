@@ -201,6 +201,7 @@ function correctAnswer(i)
     {
         return new Array("checkbox27");
     }
+    
 }
 function checkAnswer(i, s)
 {
@@ -244,7 +245,7 @@ function Question3()
 }
 function Question4()
 {
-    doQuestion(4,27,28);
+    doQuestion(3,27,28);
     button4.onclick = nextquestion();
 }
 var Q1PTS=0;

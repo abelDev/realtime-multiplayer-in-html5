@@ -74,11 +74,11 @@ var dashcodePartSpecs = {
     "text12": { "text": "Green", "view": "DC.Text" },
     "text13": { "text": "My mom is a good cook. Last night, she made chicken enchiladas. Chicken enchiladas are my favorite meal.", "view": "DC.Text" },
     "text14": { "text": "Rewrite the sentence using at least one APPOSITIVE PHRASE.", "view": "DC.Text" },
-    "text15": { "text": "\t\tTeacher, Check this box if student got it correct", "view": "DC.Text" },
-    "text16": { "text": "Convert this COMPOUND sentence into a COMPLEX sentence.", "view": "DC.Text" },
-    "text17": { "text": "The students in the piano lab performed in a concert yesterday, and they did a great job.", "view": "DC.Text" },
-    "text18": { "text": "Teacher, Check this box if student got it correct", "view": "DC.Text" },
-    "text19": { "text": "Name Three Articles", "view": "DC.Text" },
+    "text15": { "text": "Teacher, Check this box if correct", "view": "DC.Text" },
+    "text16": { "text": "Teacher, Check this box if student is correct", "view": "DC.Text" },
+    "text17": { "text": "Convert this COMPOUND sentence into a COMPLEX sentence.", "view": "DC.Text" },
+    "text18": { "text": "The students in the piano lab performed in a concert yesterday, and they did a great job.", "view": "DC.Text" },
+    "text19": { "text": "Teacher, Check this box if student is correct", "view": "DC.Text" },
     "text2": { "text": "The Salamander Team is a very descriptive name, but choose carefully!", "view": "DC.Text" },
     "Text2": { "text": "Question 2", "view": "DC.Text" },
     "text3": { "text": "The homeless helpers, a original team!", "view": "DC.Text" },
@@ -92,6 +92,7 @@ var dashcodePartSpecs = {
     "text8": { "text": "Team Name:", "view": "DC.Text" },
     "text9": { "text": "The orange cat was eating his catfood very slowly.", "view": "DC.Text" }
 };
+
 
 
 
