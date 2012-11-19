@@ -30,7 +30,7 @@
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Date</key>
-		<date>2012-11-17T00:23:27Z</date>
+		<date>2012-11-19T04:57:56Z</date>
 		<key>Destination</key>
 		<string>CDA698C3-70EE-41D9-8F90-7F696D8B2A2C</string>
 		<key>Path</key>
@@ -287,7 +287,7 @@
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>0 116 1134 662 0 0 1280 778 </string>
+	<string>63 -215 1134 662 0 0 1280 778 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
