@@ -10,7 +10,7 @@
 		<string>-checkArray</string>
 	</dict>
 	<key>CYSavedWindowFrame</key>
-	<string>284 123 1083 626 0 0 1280 778 </string>
+	<string>197 123 1083 626 0 0 1280 778 </string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -30,7 +30,7 @@
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Date</key>
-		<date>2012-11-19T23:58:12Z</date>
+		<date>2012-11-20T03:32:00Z</date>
 		<key>Destination</key>
 		<string>B4EB31FC-5E56-43DC-AA85-7DA11E177884</string>
 		<key>Path</key>
